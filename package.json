@@ -1,0 +1,16 @@
+{
+  "name": "garden",
+  "version": "1.0.0",
+  "description": "Task runner for growing food modularly",
+  "main": "index.js",
+  "repository": "https://github.com/Braden-Preston/garden.git",
+  "author": "Braden Preston <bpfilmsinc@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "concurrently \"cd server && yarn start\" \"cd app && yarn start\""
+  },
+  "devDependencies": {
+    "concurrently": "^4.1.0"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "garden",
+  "version": "1.0.0",
+  "description": "Node server running on Raspberry Pi / Arduino",
+  "main": "index.js",
+  "repository": "https://github.com/Braden-Preston/garden.git",
+  "author": "Braden Preston <bpfilmsinc@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "devDependencies": {
+    "chalk": "^2.4.2"
+  },
+  "dependencies": {
+    "johnny-five": "^1.0.0"
+  }
+}
