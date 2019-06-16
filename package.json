@@ -8,9 +8,12 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "start": "concurrently \"cd server && yarn start\" \"cd app && yarn start\""
+    "start": "concurrently \"cd app && yarn start\" \"cd server && yarn start\""
   },
   "devDependencies": {
     "concurrently": "^4.1.0"
+  },
+  "dependencies": {
+    "three": "^0.102.1"
   }
 }
